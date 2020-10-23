@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #1d1d1d;
+    height: 100px;
+}
+.login{
+    color: white;
+    text-align: right;
+}
+.cart{
+    width: 20px;
+}
