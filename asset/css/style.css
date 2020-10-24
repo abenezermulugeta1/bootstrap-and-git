@@ -77,3 +77,19 @@ a{
         border-right: 20px solid white;
         z-index: -2;
     }
+
+    .title{
+        font-weight: bolder;
+        padding-top: 50px;
+    }
+    .para
+    {
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    .learn{
+        color:#00d7ff;
+        font-family: serif;
+        font-style: oblique;
+        cursor: pointer;
+    }
