@@ -1,10 +1,16 @@
-
+body
+{
+    background: black !important;
+}
+a{
+    text-decoration: none !important;
+}
 .navbar{
     background-color: #1d1d1d;
     height: 100px;
 }
-.Login{
-    text-decoration: none;
+.login{
+    
     color: white;
     text-align: right;
     
@@ -13,28 +19,20 @@
 .cart{
     width: 20px;
 }
-a{
-    text-decoration: none;
-}
-.header2{
-    height: 100vh;
-  
-    text-decoration: none;
-}
 .header1{
-    color: white;
     font-weight: bolder;
-    text-align: center;
+    color:white;
 }
-
-.btn-default{
-    padding: 0;
-    background: linear-gradient(to right, #00d7ff, #006094);
-    height: 70px;
-    width: 300px;
-}
-.btn-default:hover{
-    padding: 100px;
-    transition: 0.4s;
-
-}
+@media (min-aspect-ratio:9/16) {
+    #videoBG {
+        width: 50%;
+        height: auto;
+    
+    }
+    }
+    @media (max-aspect-ratio:9/16) {
+        #videoBG {
+            width: auto;
+            height: 50%;
+        }
+    }
