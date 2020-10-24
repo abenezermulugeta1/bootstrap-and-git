@@ -1,6 +1,7 @@
-body
+.mainbody
 {
-    background: black !important;
+    background: black ;
+    
 }
 a{
     text-decoration: none !important;
@@ -23,17 +24,20 @@ a{
     font-weight: bolder;
     color:white;
 }
-@media (min-aspect-ratio:9/16) {
+@media (min-aspect-ratio:1/1) {
     #videoBG {
-        width: 50%;
+        margin-top: 50px;
+        width: 70%;
         height: auto;
+        background-color: black;
     
     }
     }
-    @media (max-aspect-ratio:9/16) {
+    @media (max-aspect-ratio:1/1) {
         #videoBG {
+            
             width: auto;
-            height: 50%;
+            height: 70%;
         }
     }
     .btna{
@@ -41,11 +45,14 @@ a{
         font-weight: 2000;
     }
     .btn{
+        padding: 50px 0px 50px 0px;
         width: 300px;
         height: 70px;
         background:linear-gradient(to right, #00d7ff, #006094) !important;
         outline:black;
-        border-radius:20px !important;
+        border-radius:10px !important;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
     .btn:hover{
         height: 100px;
@@ -60,5 +67,13 @@ a{
         border: 1px solid #91ddeb;
         border-radius: 20px;
         color: white;
+        z-index: -1;
     }
 
+    .part{
+        margin-top: 20px;
+        height: 100vh;
+        background-color: rgb(235, 232, 232);
+        border-right: 20px solid white;
+        z-index: -2;
+    }
