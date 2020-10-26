@@ -67,12 +67,12 @@ a{
         border: 1px solid #91ddeb;
         border-radius: 20px;
         color: white;
-        z-index: -1;
+        z-index: 1;
     }
 
     .part{
         margin-top: 20px;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(235, 232, 232);
         border-right: 20px solid white;
         
@@ -98,3 +98,7 @@ a{
         transition: 0.4s;
        
     }
+    .png{
+        width: 100%;
+    }
+    
