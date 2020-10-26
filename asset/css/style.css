@@ -75,7 +75,7 @@ a{
         height: 100vh;
         background-color: rgb(235, 232, 232);
         border-right: 20px solid white;
-        z-index: -2;
+        
     }
 
     .title{
@@ -92,4 +92,9 @@ a{
         font-family: serif;
         font-style: oblique;
         cursor: pointer;
+    }
+    .learn:hover{
+        color: rgb(43, 43, 70);
+        transition: 0.4s;
+       
     }
