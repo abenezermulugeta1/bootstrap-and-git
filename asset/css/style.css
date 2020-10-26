@@ -101,4 +101,29 @@ a{
     .png{
         width: 100%;
     }
-    
+    .page3{
+        
+  
+    margin-top: 30px;
+    }
+    .run{
+        width: 100%;
+    }
+    .overlay{
+        font-weight: bolder;
+        font-size: x-large;
+        width: 600px;
+        font-family: ui-serif;
+    }
+    .p1{
+        color: grey;
+    }
+    .tittle1{
+        color: black;
+        font-size: 70px;
+        font-weight: 1200px;
+    }
+    .span{
+        color:black;
+        font-size: x-large;
+    }
