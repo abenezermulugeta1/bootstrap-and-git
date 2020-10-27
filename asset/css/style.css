@@ -210,3 +210,33 @@ a{
           margin: 0; 
         
         }
+        .swap{
+            text-align: right;
+            width: 70%;
+        }
+        .fontt1{
+            color: white;
+          font-family:sans-serif;
+          width: 80%;
+          padding-top: 100px;
+          padding-left: 100px;
+          font-size: 50px;
+          font-weight: 900;
+          line-height: 110%;
+          letter-spacing: 0.03em;
+          text-align: left;
+        }
+        .fontt2{
+            text-align: left;
+            color: grey;
+            opacity: 0.8;
+            font-family: sans-serif;
+            width: 50%;
+            padding-left: 100px;
+        }
+        .span1{
+            text-align: right;
+            color: white;
+            font-weight: bold;
+opacity: 1;
+        }
