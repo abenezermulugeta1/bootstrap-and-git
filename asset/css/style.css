@@ -1,7 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
+ 
+  overflow-x: hidden;
+  overflow-y: auto;
+ 
 }
+
 
 a{
     text-decoration: none !important;
@@ -11,6 +19,7 @@ a{
     background-color: #1d1d1d;
     height: 100px;
     opacity:0.7 ;
+    width: 100vw;
     
 }
 .login{
@@ -248,6 +257,7 @@ a{
       .pad{
           padding: 0 !important;
           margin: 0; 
+          width: 100%;
         
         }
         .swap{
