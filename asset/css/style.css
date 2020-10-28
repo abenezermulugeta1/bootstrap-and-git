@@ -2,11 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
-.mainbody
-{
-    background: black ;
-    
-}
+
 a{
     text-decoration: none !important;
 }
@@ -29,27 +25,67 @@ a{
     color:white;
 }
 .video{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
-    .btna{
-        color: white;
-        font-weight: 2000;
+
+
+.playpause {
+    background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
+    background-repeat:no-repeat;
+    width:30%;
+    height:30%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+    
+    .btn
+{
+    border:1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.btn1{
+    color: #fff;
+}
+.btn1:hover{
+    color: #3498db;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
     }
-    .btn{
-        padding: 50px 0px 50px 0px;
-        width: 300px;
-        height: 70px;
-        background:linear-gradient(to right, #00d7ff, #006094) !important;
-        outline:black;
-        border-radius:10px !important;
-        margin-bottom: 100px;
-        margin-top: 50px;
+    .btn1::before{
+        top: 0;
+        border-radius: 20px;
     }
-    .btn:hover{
-        height: 100px;
-        transition: 0.4s;
-        padding-bottom: 50px;
+    
+    .btn1::before{
+        height: 180%;
+    }
+    .btn1:hover::before{
+        height: 0%;
     }
     .btn2{position: fixed;
         right: 1px;
@@ -194,7 +230,7 @@ a{
       }
       .classicbtn:hover{
           border: 2px solid #00d7ff;
-          transition: 0.4s;
+          transition: 0.2s;
           
       }
       @media screen and (min-height: 10%) {
@@ -231,12 +267,13 @@ a{
             color: grey;
             opacity: 0.8;
             font-family: sans-serif;
-            width: 50%;
+            width: 76%;
             padding-left: 100px;
         }
         .span1{
             text-align: right;
             color: white;
             font-weight: bold;
-opacity: 1;
+            opacity: 1;
         }
+    
