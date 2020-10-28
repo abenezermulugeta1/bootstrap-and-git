@@ -7,8 +7,11 @@ a{
     text-decoration: none !important;
 }
 .navbar{
+    
     background-color: #1d1d1d;
     height: 100px;
+    opacity:0.7 ;
+    
 }
 .login{
     
@@ -22,7 +25,7 @@ a{
 }
 .header1{
     font-weight: bolder;
-    color:white;
+    color:black;
 }
 .video{
     width: 70%;
@@ -33,14 +36,15 @@ a{
 .playpause {
     background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
     background-repeat:no-repeat;
-    width:30%;
-    height:30%;
-    position:absolute;
+    width: 30%;   
+    height: 30%;
+     position:absolute;
+
     left:0%;
     right:0%;
     top:0%;
     bottom:0%;
-    margin:auto;
+    margin: auto;
     background-size:contain;
     background-position: center;
 }
